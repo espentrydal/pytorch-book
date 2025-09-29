@@ -10,6 +10,9 @@ version = "0.1.0"
 [dependencies]
 python = "3.11.*"
 cuda-version = "12.1.*"
+notebook = ">=7.4.6,<8"
+ipython = ">=9.5.0,<10"
+numpy = "<2"
 
 [pypi-dependencies]
 torch = { version = "==2.1.2", index = "https://download.pytorch.org/whl/cu121" }
