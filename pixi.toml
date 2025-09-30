@@ -15,8 +15,9 @@ ipython = ">=9.5.0,<10"
 numpy = "<2"
 
 [pypi-dependencies]
-torch = { version = "==2.1.2", index = "https://download.pytorch.org/whl/cu121" }
+torch = { version = ">=2.2.0, <2.3.0", index = "https://download.pytorch.org/whl/cu121" }
 torchvision = { version = ">=0.6.2", index = "https://download.pytorch.org/whl/cu121" }
+transformers = ">=4.56.2, <5"
 
 #[target.osx.pypi-dependencies]
 
